@@ -32,6 +32,7 @@ extension UIViewController: StoryboardProtocol {}
 
 
 
+
 extension UIViewController {
     //从storyBoard加载一个控制器
     public static func viewControllerFromStoryboard(_ storyboardName: String, identifier: String) -> UIViewController {
